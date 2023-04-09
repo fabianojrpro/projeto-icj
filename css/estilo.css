@@ -1,0 +1,106 @@
+/* Define uma fonte e cor de fundo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Define o tamanho do calendário */
+  .calendar {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  /* Define o título do calendário */
+  .calendar h1 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Define a tabela do calendário */
+  .calendar table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  /* Define as células do calendário */
+  .calendar td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  /* Define as células de fim de semana */
+  .calendar td.weekend {
+    color: red;
+  }
+  
+  /* Define as células do dia atual */
+  .calendar td.today {
+    background-color: yellow;
+  }
+  
+  /* Define as células dos dias do mês anterior e do próximo mês */
+  .calendar td.other-month {
+    color: #ccc;
+  }
+
+  h1 {
+    margin-top: 200px !important;
+    margin-left: 15px;
+    text-transform: capitalize;
+  }
+
+ /* Estilo para as tags <input> */
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 90%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+  }
+  
+  /* Estilo para o botão */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  /* estilo botão logar index*/
+  .botao-logar {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 3px;
+    margin-right: 10px;
+    float: right;
+  }
+  
+  
+  
+  /* Torna o calendário responsivo em dispositivos móveis */
+  @media screen and (max-width: 576px) {
+    .calendar {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .calendar td {
+      font-size: 1rem;
+      padding: 0.25rem;
+    }
+  }
+  
